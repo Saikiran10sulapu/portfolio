@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saikiran Sulapu — Senior Business Analyst</title>
+  <meta name="description" content="🎯 Senior Business Analyst | Agile | BRD | SQL | Driving Digital Transformation | Agile Practitioner | Project/Product Management | Global Software Delivery" />
+  <!-- Favicon Placeholder -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    /* --------- BASIC RESET --------- */
+    :root {
+      --bg: #0f1724; /* dark navy */
+      --card: #0b1220;
+      --muted: #94a3b8;
+      --accent: #06b6d4; /* teal */
+      --glass: rgba(255, 255, 255, 0.03);
+      --radius: 14px;
+      --max-width: 1100px;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: var(--sans);
+      background: linear-gradient(180deg, var(--bg), #071022);
+      color: #e6eef6;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* --------- LAYOUT --------- */
+    .container {
+      max-width: var(--max-width);
+      margin: 40px auto;
+      padding: 28px;
+    }
+    header {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #0ea5a4, #7c3aed);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 28px;
+      box-shadow: 0 6px 30px rgba(2, 6, 23, 0.6);
+      color: white;
+    }
+    .hero {
+      flex: 1;
+    }
+    h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    .tagline {
+      margin: 4px 0 0 0;
+      color: var(--muted);
+      font-weight: 400;
+      line-height: 1.3;
+    }
+    /* --------- GRID --------- */
+    main {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 28px;
+      margin-top: 28px;
+    }
+    .card {
+      background: linear-gradient(180deg, var(--card), rgba(8, 12, 20, 0.6));
+      border-radius: var(--radius);
+      padding: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.03);
+      box-shadow: 0 8px 40px rgba(2, 6, 23, 0.6);
+    }
+    /* --------- LEFT: content --------- */
+    .summary {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .skill {
+      background: var(--glass);
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      color: var(--muted);
+      user-select: none;
+    }
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .project {
+      display: block;
+      padding: 12px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.017);
+      border: 1px solid rgba(255, 255, 255, 0.02);
+    }
+    .project h3 {
+      margin: 0 0 6px 0;
+    }
+    .meta {
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .impact {
+      margin-top: 8px;
+      font-weight: 600;
+      color: #d0f1f7;
+    }
+    /* timeline */
+    .timeline {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .t-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .t-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin-top: 6px;
+    }
+    .t-content {
+      color: var(--muted);
+    }
+    /* --------- RIGHT: sidebar --------- */
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .contact-item {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .resume-btn {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: linear-gradient(90deg, var(--accent), #7c3aed);
+      color: #03131a;
+      font-weight: 700;
+      cursor: pointer;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+    .resume-btn:hover {
+      background-color: #05a0b9;
+      color: white;
+    }
+    /* small screens */
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+      .avatar {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    /* Small utility */
+    .muted {
+      color: var(--muted);
+    }
+    .chip {
+      display: inline-block;
+      padding: 6px 8px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.02);
+      font-size: 13px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar" aria-label="Initials SS">SS</div>
+      <div class="hero">
+        <h1>Saikiran Sulapu — Senior Business Analyst</h1>
+        <div class="tagline">
+          Results-driven Senior Business Analyst with 5+ years of experience delivering
+          tech-enabled solutions for enterprises. Known for bridging business needs with 
+          technical execution through clear documentation, data-driven decisions, and stakeholder alignment.
+        </div>
+      </div>
+      <div style="text-align: right;">
+        <a class="resume-btn" href="#" id="downloadResume" role="button" aria-label="Download Resume">Download Resume</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="card summary" role="region" aria-labelledby="summary-title">
+          <h2 id="summary-title" style="margin: 0 0 6px 0;">Summary</h2>
+          <p class="muted" lang="en">
+            Experienced Senior Product Consultant and Business Analyst with 5+ years working across Healthcare and life sciences, and regulated environments. Proven track record in leading cross-functional teams for system implementations, process optimisation, and validation (GxP/GAMP). Skilled in stakeholder management, requirements engineering, and data-driven decision making, dashboarding, product demos, handling Scrum Ceremonies.
+          </p>
+          <div style="margin-top: 10px;">
+            <strong>Core skills</strong>
+            <div class="skills" aria-label="Core skills">
+              <span class="skill">Business Analysis</span>
+              <span class="skill">Requirements Gathering</span>
+              <span class="skill">Scrum Ceremonies</span>
+              <span class="skill">BRD/FRD Documentation</span>
+              <span class="skill">Agile & Scrum</span>
+              <span class="skill">SQL</span>
+              <span class="skill">Power BI</span>
+              <span class="skill">Backlog Management</span>
+              <span class="skill">User Stories Refinement</span>
+              <span class="skill">Functional Case Testing</span>
+              <span class="skill">Front-end Development</span>
+              <span class="skill">Project Management</span>
+              <span class="skill">Jira / Azure DevOps</span>
+            </div>
+          </div>
+          <div style="margin-top: 14px;">
+            <strong>Experiences</strong>
+            <div class="Experiences" aria-label="Professional Experiences" role="list">
+              <article class="Experience" role="listitem">
+                <h3>1) Senior Product Consultant Level-1</h3>
+                <div class="meta">
+                  TimeLine: Jun 2024 - Present, Tools: MYSQL, Escalation Management, Cross-functional Leadership, Project Planning.
+                </div>
+                <p class="muted">Implemented best practices with weekly milestone tracking, ensuring on-time project execution and improved visibility.</p>
+                <p class="muted">Optimized workload allocation using ZOHO heat maps and bar charts, enhancing team productivity and efficiency.</p>
+                <p class="muted">Monitored planned vs actual progress in scrum meetings, driving real-time issue resolution and execution efficiency.</p>
+                <p class="muted">Utilized Jira, Zoho Projects and Figma to streamline stakeholder communication and ensure project transparency.</p>
+                <p class="muted">Leveraged Azure DevOps for structured tracking, achieving 90% optimization in development, deployment and testing.</p>
+                <p class="muted">Established and SPM review cycle with structured approvals, improving patch gap management by 75%.</p>
+                <div class="impact">Impact: Established and SPM review cycle with structured approvals, improving patch gap management by 75%.</div>
+              </article>
+              <article class="Experience" role="listitem">
+                <h3>Senior Product Consultant Level-2</h3>
+                <div class="meta">
+                  Timeline: June 2023 - May 2024 &bull; Tools: MYSQL, Patch Gap Analysis, SPM, UAT, Power BI, Excel, Confluence
+                </div>
+                <p class="muted">Led business analysis for global software implementations, aligning solutions with business needs and improving product adaptability.</p>
+                <p class="muted">Optimized sprint planning, backlog management, and task allocation, increasing project efficiency by 80%.</p>
+                <p class="muted">Conducted impact analysis and gap assessments, leading to a 15% improvement in process efficiency.</p>
+                <p class="muted">Managed SQL Server deployments and automation, ensuring 99.9% uptime across UAT, Validation, and Production environments.</p>
+                <p class="muted">Developed and executed UAT test cases and end-user training, ensuring high adoption rates.</p>
+                <div class="impact">SAF-e Agile, Tableau, SQL, JIRA, Zoho Projects, SPM applied to deliver projects within defined timelines.</div>
+              </article>
+              <article class="Experience" role="listitem">
+                <h3>Senior Product Consultant Level-3</h3>
+                <div class="meta">
+                  Timeline: June 2022 - May 2023 &bull; Tools: SQL, Power BI
+                </div>
+                <p class="muted">Interfaced between business and IT teams, ensuring clear translation of business requirements into technical solutions.</p>
+                <p class="muted">Developed and delivered Business Requirement Documents (BRDs) and Functional Requirement Specifications (FRS).</p>
+                <p class="muted">Streamlined data analysis and workflow optimization, reducing manual efforts by 30%.</p>
+                <p class="muted">Led cross-functional workshops and UAT sessions, ensuring high stakeholder alignment.</p>
+                <div class="impact">Impact: Automated 85% of manual reporting tasks; enabled faster decision making for lab leads.</div>
+              </article>
+            </div>
+          </div>
+          <div class="timeline card" style="margin-top: 16px; padding: 12px;">
+            <h3 style="margin: 0 0 6px 0;">Career Timeline</h3>
+            <div class="t-row">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-content">Senior Product Consultant — Various LIMS & Life Sciences projects (2023 - Present)</div>
+            </div>
+            <div class="t-row">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-content">Product Consultant — Implementations & Validation (2021 - 2023)</div>
+            </div>
+            <div class="t-row">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-content">Business Analyst — Digital Transformation (2019 - 2021)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sample Artifacts -->
+        <div style="margin-top: 12px;" class="card" role="region" aria-labelledby="sample-documents-title">
+          <h3 id="sample-documents-title" style="margin-top: 0;">Sample Documents</h3>
+          <p class="muted">
+            You can include downloadable or viewable artifacts here (BRD, UAT plan, process flows). The button below creates example BRD content.
+          </p>
+          <div style="display: flex; gap: 10px; margin-top: 10px;">
+            <button id="generateBRD" class="resume-btn" aria-label="Generate Sample BRD Document">Generate Sample BRD</button>
+            <a href="#" class="chip" role="button" tabindex="0">View Case Study (PDF)</a>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card" role="region" aria-labelledby="contact-title">
+          <h3 id="contact-title" style="margin-top: 0;">Contact</h3>
+          <div class="contact-list">
+            <div class="contact-item"><strong>Email:</strong><div class="muted">sai943302@gmail.com</div></div>
+            <div class="contact-item"><strong>LinkedIn:</strong><div class="muted"><a href="#" rel="noopener noreferrer" target="_blank">https://www.linkedin.com/in/sai-kiran-sulapu-10-11-97sk/</a></div></div>
+            <div class="contact-item"><strong>Location:</strong><div class="muted">Hyderabad, India</div></div>
+            <div style="margin-top: 10px;"><a class="resume-btn" href="#" role="button">Request CV</a></div>
+          </div>
+        </div>
+
+        <div style="margin-top: 12px;" class="card" role="region" aria-labelledby="certifications-title">
+          <h3 id="certifications-title" style="margin-top: 0;">Certifications & Education</h3>
+          <div class="muted" style="display: flex; flex-direction: column; gap: 6px;">
+            <div>Scaling Agile with SAFe (for Product Owners / Scrum Masters) - Udemy<br/>Issued Jul 2024 &bull; Credential ID 0004</div>
+            <div>SQL Server Developer: Using SQL Server, TSQL and Power BI - Udemy<br/>Issued Feb 2024</div>
+            <div>Requirements Elicitation and Analysis - LinkedIn<br/>Issued Apr 2020</div>
+            <div>Software Development Life Cycle (SDLC) - LinkedIn<br/>Issued Mar 2020</div>
+            <div>Analytical Techniques for Business Analysis (IIBA-ECBA) - Udemy<br/>Issued Aug 2024 · Expired Aug 2025 &bull; Credential ID 0004</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 12px; text-align: center;" class="card" role="region" aria-labelledby="availability-title">
+          <h3 id="availability-title" style="margin-top: 0;">Availability</h3>
+          <p class="muted">Open to Senior BA / Product roles — Remote or Hyderabad-based opportunities.</p>
+          <a href="mailto:saikiran@example.com" class="resume-btn" role="button" aria-label="Email Saikiran Sulapu">Email Me</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer style="margin-top: 24px; text-align: center; opacity: 0.8; color: var(--muted);">
+      Saikiran Sulapu
+    </footer>
+  </div>
+  <script>
+    /* ---------- Interactive JS ---------- */
+    // Generate sample BRD text file
+    document.getElementById('generateBRD').addEventListener('click', function () {
+      const brd = `BRD - Sample\n\nTitle: LIMS Rollout - Phase 1\nOwner: Saikiran Sulapu\nSummary: Implement LIMS across three labs to centralize sample tracking and reporting.\nScope: Requirements, config, validation, UAT, training.\nKey Success Metrics: 30% reduction in sample turnaround time; 99% data accuracy.\n\n(Use this as a starting point and expand to a full BRD)`;
+      const blob = new Blob([brd], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'sample-BRD.txt';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    // Download resume placeholder (could be replaced with real file)
+    document.getElementById('downloadResume').addEventListener('click', function (e) {
+      e.preventDefault();
+      const text = `Saikiran Sulapu - Senior Business Analyst\n\nSummary: Senior BA with experience in GxP, Agile delivery... (replace with real resume)`;
+      const blob = new Blob([text], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Saikiran-Sulapu-Resume.txt';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    // Keyboard shortcut: press 'p' to scroll to Projects section
+    document.addEventListener('keydown', function (e) {
+      if (e.key.toLowerCase() === 'p') {
+        window.scrollTo({ top: 250, behavior: 'smooth' });
+      }
+    });
+  </script>
+</body>
+</html>
